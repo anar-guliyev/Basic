@@ -1,0 +1,366 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.header {
+    display: block;
+    height: 150px;
+    position: relative;
+    z-index: 6;
+}
+
+.logo-img {
+    width: 32px;
+    position: absolute;
+    left: 7%;
+    top: 40%;
+}
+
+.header_burger {
+    display: block;
+    position: absolute;
+    right: 8%;
+    top: 42%;
+    cursor: pointer;
+}
+
+.header_item {
+    width: 17px;
+    height: 3px;
+    background: #333333;
+    display: block;
+    margin: 4px 0;
+}
+
+.header_item-2 {
+    width: 25px;
+}
+
+.header_item-3 {
+    width: 20px;
+}
+
+.burger_menu {
+    position: fixed;
+    margin: 0;
+    top: 0px;
+    background: white;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    display: none;
+}
+
+.burger_menu li {
+    list-style: none;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    margin: 15px 60px 0 15px;
+    vertical-align: middle;
+}
+
+.burger_menu li:active,
+.burger_menu li:hover {
+    color: rgba(0, 0, 0, 0.541);
+}
+
+.burger_menu li:first-of-type {
+    margin-top: 150px;
+}
+
+.first_p-items {
+    display: block;
+    margin-left: 7%;
+}
+
+.first_p-item {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.first_p-item__bold {
+    font-weight: bolder;
+}
+
+.explanation {
+    margin-left: 7%;
+    margin-top: -50px;
+    font-size: 27px;
+    font-weight: lighter;
+    color: #bbbbbb;
+}
+
+.sections {
+    display: block;
+    margin-left: 72px;
+}
+
+.section {
+    display: inline-block;
+    padding: 0;
+    margin: 0px 25px;
+}
+
+.section:hover,
+.section:active {
+    border-bottom: rgba(1, 1, 1, 0.178) solid 2px;
+    margin: -2px 25px;
+}
+
+.section a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #777777;
+}
+
+.section a:hover,
+.section a:active {
+    color: #333333;
+}
+
+.images_div {
+    position: relative;
+}
+
+.first_image {
+    position: absolute;
+    top: 20px;
+    left: 94px;
+    height: 248.72px;
+    width: 373.33px;
+}
+
+.image_hover {
+    width: 373.33px;
+    background: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding-top: 95px;
+    display: none;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.image_hover p {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.hover1 {
+    position: absolute;
+    top: 20px;
+    left: 94px;
+    height: 153.72px;
+}
+
+.second_image {
+    position: absolute;
+    top: 20px;
+    left: 490px;
+    height: 405.23px;
+    width: 373.33px;
+}
+
+.hover2 {
+    position: absolute;
+    top: 20px;
+    left: 490px;
+    height: 309.72px;
+}
+
+.hover2 p:first-child {
+    margin-top: 90px;
+}
+
+.third_image {
+    position: absolute;
+    top: 20px;
+    right: 88px;
+    width: 373.33px;
+    height: 248.75px;
+}
+
+.hover3 {
+    position: absolute;
+    top: 20px;
+    right: 88px;
+    height: 153.72px;
+}
+
+.fourth_image {
+    position: absolute;
+    top: 290px;
+    left: 94px;
+    height: 279.98px;
+    width: 373.33px;
+}
+
+.hover4 {
+    position: absolute;
+    top: 290px;
+    left: 94px;
+    height: 185px;
+}
+
+.fifth_image {
+    position: absolute;
+    top: 445px;
+    left: 490px;
+    height: 248.72px;
+    width: 373.33px;
+}
+
+.hover5 {
+    position: absolute;
+    top: 445px;
+    left: 490px;
+    height: 155.72px;
+}
+
+.sixth_image {
+    position: absolute;
+    top: 290px;
+    right: 88px;
+    height: 260.72px;
+    width: 373.33px;
+}
+
+.hover6 {
+    position: absolute;
+    top: 290px;
+    right: 88px;
+    height: 165.72px;
+}
+
+.seventh_image {
+    position: absolute;
+    top: 590px;
+    left: 94px;
+    height: 301.52px;
+    width: 373.33px;
+}
+
+.hover7 {
+    position: absolute;
+    top: 590px;
+    left: 94px;
+    height: 208px;
+}
+
+.eighth_image {
+    position: absolute;
+    top: 716px;
+    left: 490px;
+    height: 248.72px;
+    width: 373.33px;
+}
+
+.hover8 {
+    position: absolute;
+    top: 716;
+    left: 490px;
+    height: 153.72px;
+}
+
+.nineth_image {
+    position: absolute;
+    top: 572px;
+    right: 88px;
+    height: 260.72px;
+    width: 373.33px;
+}
+
+.hover9 {
+    position: absolute;
+    top: 572px;
+    right: 88px;
+    height: 166.72px;
+}
+
+.tenth_image {
+    position: absolute;
+    top: 910px;
+    left: 94px;
+    height: 250.72px;
+    width: 373.33px;
+}
+
+.hover10 {
+    position: absolute;
+    top: 910px;
+    left: 94px;
+    height: 157px;
+}
+
+.eleventh_image {
+    position: absolute;
+    top: 982px;
+    left: 490px;
+    height: 248.72px;
+    width: 373.33px;
+}
+
+.hover11 {
+    position: absolute;
+    top: 982px;
+    left: 490px;
+    height: 153.72px;
+}
+
+.twelfth_image {
+    position: absolute;
+    top: 855px;
+    right: 88px;
+    height: 264.72px;
+    width: 373.33px;
+}
+
+.hover12 {
+    position: absolute;
+    top: 855px;
+    right: 88px;
+    height: 170.72px;
+}
+
+.contact_info {
+    position: relative;
+}
+
+.contacts {
+    display: block;
+    position: absolute;
+    top: 1250px;
+    height: 150px;
+    margin: 0;
+    width: 1309px;
+    background: #F6F6F6;
+    text-align: center;
+}
+
+.contact {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px 20px;
+    color: #000000;
+    margin-top: 4rem;
+    position: relative;
+}
+
+.contact:hover,
+.contact:active {
+    color: rgba(0, 0, 0, 0.541);
+}
+
+.last-p {
+    position: absolute;
+    top: 1350px;
+    vertical-align: middle;
+    text-align: center;
+    left: 42%;
+}
